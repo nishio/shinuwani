@@ -38,7 +38,6 @@ declare module 'reactn/default' {
   export interface State extends TYPE_GLOBAL_STATE { }
 }
 setGlobal(INITIAL_STATE)
-setGlobal({ luck: "string" });
 
 const App = () => {
   const [gender] = useGlobal('gender');
